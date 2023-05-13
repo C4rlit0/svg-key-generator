@@ -22,6 +22,14 @@ text = "C"
 size = 180
 position = ['20%', '35%']
 
+[D]
+width = 1080
+height = 1080
+type = "text"
+text = "D"
+size = 180
+position = ['20%', '35%']
+
 [alt_gr]
 width = 1080
 height = 1080
