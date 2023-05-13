@@ -18,3 +18,10 @@ jobs:
       run: pip install toml
     - name: Generate Keys
       run: python generate_keys.py
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+        directory: keys
