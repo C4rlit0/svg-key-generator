@@ -1,0 +1,120 @@
+[A]
+width = 1080
+height = 1080
+type = "text"
+text = "A"
+size = 180
+position = ['20%', '35%']
+
+[B]
+width = 1080
+height = 1080
+type = "text"
+text = "B"
+size = 180
+position = ['20%', '35%']
+
+[C]
+width = 1080
+height = 1080
+type = "text"
+text = "C"
+size = 180
+position = ['20%', '35%']
+
+[alt_gr]
+width = 1080
+height = 1080
+type = "text"
+text = "alt gr"
+size = 120
+position = ['20%', '35%']
+
+[maj]
+width = 1600
+height = 1080
+type = "text"
+text = "maj"
+size = 120
+position = [500, 400]
+
+[shift]
+width = 1600
+height = 1080
+type = "text"
+text = "shift"
+size = 120
+position = [100, 700]
+
+[ctrl]
+width = 1080
+height = 1080
+type = "text"
+text = "ctrl"
+size = 120
+position = [100, 100]
+
+[alt]
+width = 1080
+height = 1080
+type = "text"
+text = "alt"
+size = 120
+position = [100, 100]
+
+[space]
+width = 2080
+height = 1080
+type = "text"
+text = "space"
+size = 120
+position = [100, 100]
+
+[win]
+width = 1080
+height = 1080
+type = "image"
+text = "windows.png"
+size = 120
+position = [100, 100]
+
+[up]
+width = 1080
+height = 1080
+type = "image"
+text = "up.png"
+size = 120
+position = [100, 100]
+
+[down]
+width = 1080
+height = 1080
+type = "image"
+text = "down.png"
+size = 120
+position = [100, 100]
+
+[left]
+width = 1080
+height = 1080
+type = "image"
+text = "left.png"
+size = 120
+position = [100, 100]
+
+[right]
+width = 1080
+height = 1080
+type = "image"
+text = "right.png"
+size = 120
+position = [100, 100]
+
+[capslock]
+width = 1080
+height = 1080
+type = "image"
+text = "capslock.png"
+size = 120
+position = [100, 100]
+
