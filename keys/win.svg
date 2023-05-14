@@ -15,7 +15,7 @@
       <stop offset="100%" style="stop-color:#f2f2f2;"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="1080" height="1080" rx="60" style="fill: url(#gradient);"/>
-  <rect x="100" y="100" width="880" height="880" rx="60" style="fill: url(#gradient-inverse); stroke: white; stroke-width: 6px;"/>
+  <rect x="1" y="1" width="1080" height="1080" rx="80" style="fill: url(#gradient);"/>
+  <rect x="100" y="100" width="880" height="880" rx="80" style="fill: url(#gradient-inverse); stroke: white; stroke-width: 6px;"/>
   <image x="380" y="380" width="320" height="320" xlink:href="../icons/windows.png" />
 </svg>
