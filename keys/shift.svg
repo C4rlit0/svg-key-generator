@@ -17,5 +17,5 @@
   </defs>
   <rect x="1" y="1" width="1600" height="1080" rx="80" style="fill: url(#gradient);"/>
   <rect x="100" y="100" width="1400" height="880" rx="80" style="fill: url(#gradient-inverse); stroke: white; stroke-width: 6px;"/>
-  <text x="20%" y="35%" fill="#333333" font-size="120" font-family="CourierPrime-Regular" text-anchor="start" alignment-baseline="hanging">shift</text>
+  <text x="20%" y="35%" fill="#333333" font-size="140" font-family="CourierPrime-Regular" text-anchor="start" alignment-baseline="hanging">shift</text>
 </svg>
