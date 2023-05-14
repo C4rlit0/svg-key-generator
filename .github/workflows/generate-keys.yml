@@ -20,6 +20,9 @@ jobs:
       run: python generate_keys.py
     - name: Commit files
       run: |
+        git config user.email ${{ secrets.USER_EMAIL }}
+        git config  user.name ${{ secrets.USER_NAME }}
+        git status
         git add .
         git commit -m "Generated SVG files"
     - name: GitHub Push
