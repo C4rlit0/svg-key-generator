@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'config.toml'
+      - 'template.svg'
     
 jobs:
   generate_keys:
