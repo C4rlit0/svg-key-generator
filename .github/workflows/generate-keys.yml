@@ -18,21 +18,12 @@ jobs:
       run: pip install toml
     - name: Generate Keys
       run: python generate_keys.py
-    - name: Show generated files
-      run: ls -R ./keys
     - name: Commit files
-      # get user name and email from variables
       run: |
-        git config user.email ${{ vars.USER_EMAIL }}
-        git config  user.name ${{ vars.USER_NAME }}
-        
-        git status
-        git add ./keys
-        git commit -m "Generated SVG files"
+        git config --local user.email ${{ vars.USER_EMAIL }}
+        git config --local user.name ${{ vars.USER_NAME }}
+        git commit -m "Generated SVG files" -a
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
-        # Token for the repo. Can be passed in using $\{{ secrets.GITHUB_TOKEN }}
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
-        directory: keys
