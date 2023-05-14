@@ -15,7 +15,7 @@
       <stop offset="100%" style="stop-color:#f2f2f2;"/>
     </linearGradient>
   </defs>
-  <rect x="1" y="1" width="svg_width" height="svg_height" rx="60" style="fill: url(#gradient);"/>
-  <rect x="100" y="100" width="width_200" height="height_200" rx="60" style="fill: url(#gradient-inverse); stroke: white; stroke-width: 6px;"/>
+  <rect x="1" y="1" width="svg_width" height="svg_height" rx="80" style="fill: url(#gradient);"/>
+  <rect x="100" y="100" width="width_200" height="height_200" rx="80" style="fill: url(#gradient-inverse); stroke: white; stroke-width: 6px;"/>
   <key_value />
 </svg>
