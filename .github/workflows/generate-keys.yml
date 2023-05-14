@@ -22,7 +22,8 @@ jobs:
       run: |
         git config --local user.email ${{ vars.USER_EMAIL }}
         git config --local user.name ${{ vars.USER_NAME }}
-        git commit -m "Generated SVG files" -a
+        git add .
+        git commit -m "Generated SVG files"
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
