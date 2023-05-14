@@ -30,6 +30,182 @@ text = "D"
 size = 180
 position = ['20%', '35%']
 
+[E]
+width = 1080
+height = 1080
+type = "text"
+text = "E"
+size = 180
+position = ['20%', '35%']
+
+[F]
+width = 1080
+height = 1080
+type = "text"
+text = "F"
+size = 180
+position = ['20%', '35%']
+
+[G]
+width = 1080
+height = 1080
+type = "text"
+text = "G"
+size = 180
+position = ['20%', '35%']
+
+[H]
+width = 1080
+height = 1080
+type = "text"
+text = "H"
+size = 180
+position = ['20%', '35%']
+
+[I]
+width = 1080
+height = 1080
+type = "text"
+text = "I"
+size = 180
+position = ['20%', '35%']
+
+[J]
+width = 1080
+height = 1080
+type = "text"
+text = "J"
+size = 180
+position = ['20%', '35%']
+
+[K]
+width = 1080
+height = 1080
+type = "text"
+text = "K"
+size = 180
+position = ['20%', '35%']
+
+[L]
+width = 1080
+height = 1080
+type = "text"
+text = "L"
+size = 180
+position = ['20%', '35%']
+
+[M]
+width = 1080
+height = 1080
+type = "text"
+text = "M"
+size = 180
+position = ['20%', '35%']
+
+[N]
+width = 1080
+height = 1080
+type = "text"
+text = "N"
+size = 180
+position = ['20%', '35%']
+
+[O]
+width = 1080
+height = 1080
+type = "text"
+text = "O"
+size = 180
+position = ['20%', '35%']
+
+[P]
+width = 1080
+height = 1080
+type = "text"
+text = "P"
+size = 180
+position = ['20%', '35%']
+
+[Q]
+width = 1080
+height = 1080
+type = "text"
+text = "Q"
+size = 180
+position = ['20%', '35%']
+
+[R]
+width = 1080
+height = 1080
+type = "text"
+text = "R"
+size = 180
+position = ['20%', '35%']
+
+[S]
+width = 1080
+height = 1080
+type = "text"
+text = "S"
+size = 180
+position = ['20%', '35%']
+
+[T]
+width = 1080
+height = 1080
+type = "text"
+text = "T"
+size = 180
+position = ['20%', '35%']
+
+[U]
+width = 1080
+height = 1080
+type = "text"
+text = "U"
+size = 180
+position = ['20%', '35%']
+
+[V]
+width = 1080
+height = 1080
+type = "text"
+text = "V"
+size = 180
+position = ['20%', '35%']
+
+[W]
+width = 1080
+height = 1080
+type = "text"
+text = "W"
+size = 180
+position = ['20%', '35%']
+
+[X]
+width = 1080
+height = 1080
+type = "text"
+text = "X"
+size = 180
+position = ['20%', '35%']
+
+[Y]
+width = 1080
+height = 1080
+type = "text"
+text = "Y"
+size = 180
+position = ['20%', '35%']
+
+[Z]
+width = 1080
+height = 1080
+type = "text"
+text = "Z"
+size = 180
+position = ['20%', '35%']
+
 [alt_gr]
 width = 1080
 height = 1080
