@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'config.toml'
-
+    
 jobs:
   generate_keys:
     runs-on: ubuntu-latest
@@ -19,9 +19,11 @@ jobs:
     - name: Generate Keys
       run: python generate_keys.py
     - name: Commit files
+      # get user name and email from variables
       run: |
-        git config user.email ${{ secrets.USER_EMAIL }}
-        git config  user.name ${{ secrets.USER_NAME }}
+        git config user.email ${{ vars.USER_EMAIL }}
+        git config  user.name ${{ vars.USER_NAME }}
+        
         git status
         git add .
         git commit -m "Generated SVG files"
