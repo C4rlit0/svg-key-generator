@@ -18,6 +18,8 @@ jobs:
       run: pip install toml
     - name: Generate Keys
       run: python generate_keys.py
+    - name: Show generated files
+      run: ls -R ./keys
     - name: Commit files
       # get user name and email from variables
       run: |
@@ -25,7 +27,7 @@ jobs:
         git config  user.name ${{ vars.USER_NAME }}
         
         git status
-        git add .
+        git add ./keys
         git commit -m "Generated SVG files"
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
