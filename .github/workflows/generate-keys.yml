@@ -5,6 +5,7 @@ on:
     paths:
       - 'config.toml'
       - 'template.svg'
+      - 'generate_keys.py'
     
 jobs:
   generate_keys:
