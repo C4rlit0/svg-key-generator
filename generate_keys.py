@@ -1,4 +1,5 @@
 import toml
+import base64
 
 with open('config.toml') as f:
     config = toml.load(f)
@@ -11,7 +12,9 @@ for key, value in config.items():
     height = value['height']
     size = value['size']
     if value['type'] == 'image':
-        text = f"""<image x="315" y="315" width="{size}" height="{size}" xlink:href="../icons/{value['text']}" />"""
+        with open(f"../icons/{value['text']}", 'rb') as f:
+            b64img = base64.b64encode(f.read())
+        text = f"""<image x="315" y="315" width="{size}" height="{size}" xlink:href="data:image/png;base64,{b64img.decode('utf-8')}" />"""
     elif value['type'] == 'text':
         text = f"""<text x="20%" y="35%" fill="#333333" font-size="{size}" font-family="Courier Prime" text-anchor="start" alignment-baseline="hanging">{value['text']}</text>"""
     output_file = f"./keys/{key}.svg"
