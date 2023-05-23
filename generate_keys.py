@@ -12,7 +12,7 @@ for key, value in config.items():
     height = value['height']
     size = value['size']
     if value['type'] == 'image':
-        with open(f"../icons/{value['text']}", 'rb') as f:
+        with open(f"icons/{value['text']}", 'rb') as f:
             b64img = base64.b64encode(f.read())
         text = f"""<image x="315" y="315" width="{size}" height="{size}" xlink:href="data:image/png;base64,{b64img.decode('utf-8')}" />"""
     elif value['type'] == 'text':
